@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(to right, #f435ed 10%, #15e81c 100%);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background: rgba(20, 29, 127, 0.242);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width:50rem;
+    height: 30rem;
+    box-shadow: 0.5px 0.5px 1px 1px rgb(255, 255, 223);
+}
+
+.card-image{
+    background: url(https://c4.wallpaperflare.com/wallpaper/438/370/332/beautiful-pictures-of-nature-hd-1920x1080-wallpaper-preview.jpg);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    padding: 10px;
+    margin: 5px;
+    width: 20rem;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    color: #fff7c8;
+}
+
+.error{
+    font-family: sans-serif;
+    color: rgb(180, 13, 13);
+}
+
+button{
+    width:80%;
+    margin-top: 20px;
+    background: transparent;
+    background: rgb(255,90,123);
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+}
